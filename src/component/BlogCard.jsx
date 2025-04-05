@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function BlogCard({ post }) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+    <div className="bg-white  rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       <img
         src={post.image}
         alt={post.title}
